@@ -1,0 +1,131 @@
+/*  Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.pop-out-menu {
+    display:none;
+}
+
+/*  Styling itself */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header.navbar {
+    background-color: rgb(31, 31, 128);
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    width: 100%;
+
+    position: sticky;
+    top: 0;
+}
+
+div.logo {
+    margin-left: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+    background: rgb(170,0,29);
+    background: linear-gradient(0deg, rgb(216, 0, 90) 0%, rgb(255, 130, 46) 100%);
+}
+
+ul.links-section {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+
+li.link {
+    color: rgb(255, 136, 0);
+    font-size: 122%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+div.content {
+    margin:100px;
+}
+
+div.text-with-title {
+    margin: 60px;
+}
+
+h1.title {
+    color:rgb(255, 136, 0) ;
+    margin-bottom: 30px;
+}
+
+p.text {
+    color:rgb(0, 0, 56);
+}
+
+h1.head {
+    color:rgb(255, 136, 0) ;
+    margin-left: 10px;
+}
+
+div.footer {
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(31, 31, 128);
+
+}
+
+div.info {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    align-items: center;
+
+    position: relative;
+    right: 30%;
+
+    margin-left: 300px;
+}
+
+div.logo-and-name {
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+}
+p.copyright {
+    color: white;
+}
+
+div.line {
+    height: 300px;
+    width: 1px;
+    background-color: rgb(30, 0, 66);
+     
+    position: relative;
+    right: 200px;
+}
+
+div.footer-links-section {
+    display: flex;
+    justify-self: flex-end;
+}
+
+ul.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

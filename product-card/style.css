@@ -1,0 +1,101 @@
+/* Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Actual Styling */
+
+section.main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 20px;
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+
+
+    box-shadow: 0px 7px 32px 4px rgba(0,0,0,0.15);
+
+    transition: all ease-in-out .2s;
+}
+
+div.card:hover {
+    width: 295px;
+    box-shadow: 0px 7px 32px 4px rgba(0,0,0,0.25) inset;
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+}
+
+img.product {
+    height: 300px;
+    width: 300px;
+
+    border-radius: 20px;
+}
+
+div.add-to-cart {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(98, 0, 255);
+    margin: 10px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+
+ul.prod-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 30px;
+}
+
+h3.atc-text {
+    color: white;
+}
+
+h4.prod-name {
+    text-align: center;
+}
